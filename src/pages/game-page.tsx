@@ -10,7 +10,7 @@ export const NonogranContext = createContext<NonogramContextType>({
 
 export const GamePage: FC = () => {
   return (
-    <div className="flex flex-col lg:flex-row lg:m-8">
+    <div className="absolute lg:m-8 top-10 w-full">
       <div className="flex w-full justify-center items-center">
         <Board />
       </div>

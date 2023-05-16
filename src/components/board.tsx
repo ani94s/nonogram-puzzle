@@ -122,9 +122,6 @@ export const Board: FC = () => {
         </div>
         <div className="flex flex-col justify-center items-center w-fit order-1 lg:order-2 lg:h-screen p-4 lg:mr-16">
           <div className="flex flex-col items-center justify-center">
-            <div className="flex justify-center items-center text-4xl font-bold pb-5">
-              Nonogram
-            </div>
             <div className="flex flex-row justify-center items-center pb-8 w-64">
               <select
                 name="puzzleList"
